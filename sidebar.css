@@ -1,0 +1,39 @@
+.sidemain
+{
+  background-color: rgb(255, 255, 255);
+  color: white;
+  z-index: 200;
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  width: 75px;
+  border-right-width: 2px;
+  border-right-color: rgb(223, 223, 223);
+  border-right-style: solid;
+  display: flex;
+  flex-direction: column;
+  
+}
+.tabs
+{
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  cursor: pointer;
+  font-size: 10px;
+  transition: background-color .15s;
+}
+.sidemain img{
+  height: 25px;
+  margin-bottom: 5px;
+}
+.tabs:hover
+{
+  background-color: rgb(222, 222, 222);
+  border-radius: 10px;
+}
